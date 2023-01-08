@@ -13,9 +13,9 @@ CREATE TABLE nom_de_la_table (
 );
 ```
 
-Le nom de la table et le nom de chaque colonne doivent être spécifiés. Tu peux également spécifier le type de données (par exemple, [INT], [VARCHAR], [DATE]) de chaque colonne avec le nom de domaine. Enfin, tu peux ajouter des contraintes comme []NOT NULL pour spécifier que la colonne ne peut pas être vide.
+Le nom de la table et le nom de chaque colonne doivent être spécifiés. Tu peux également spécifier le type de données (par exemple, `INT`, `VARCHAR`, `DATE`) de chaque colonne avec le nom de domaine. Enfin, tu peux ajouter des contraintes comme `NOT NULL` pour spécifier que la colonne ne peut pas être vide.
 
-Par exemple, voici comment créer une table appelée personnes avec des colonnes 'id', 'nom' et 'âge' :
+Par exemple, voici comment créer une table appelée personnes avec des colonnes `id`, `nom` et `âge` :
 
 ```
 CREATE TABLE personnes (
